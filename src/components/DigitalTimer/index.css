@@ -1,0 +1,113 @@
+/* Write your CSS here */
+* {
+    margin: 0px;
+    font-family: 'Roboto';
+  }
+  .bg-container {
+    display: flex;
+    flex-direction: column;
+  
+    align-items: center;
+    background-image: linear-gradient(to top left, #ffffff, #cffcf1);
+    min-height: 100vh;
+    padding: 40px;
+  }
+  
+  .heading {
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 100px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .heading {
+      font-size: 42px;
+    }
+  }
+  
+  .digital-time-and-controls-container {
+    width: 90%;
+    display: flex;
+    align-items: center;
+  }
+  .time-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+    background-position: center;
+    width: 70%;
+    height: 100%;
+    padding: 100px 0px;
+    background-repeat: no-repeat;
+    background-size: 500px 500px;
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .time-display-container {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+  }
+  .timer-text {
+    color: #00d9f5;
+  }
+  .status-text {
+    font-weight: 500;
+  }
+  .controls-container {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .button-icons {
+    width: 30px;
+  
+    margin-right: 25px;
+  }
+  .start-reset-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  
+    margin-bottom: 24px;
+  }
+  .button-container {
+    display: flex;
+    align-items: center;
+  }
+  .increment-decrement-container {
+    display: flex;
+    margin-top: 15px;
+  }
+  .label-text {
+    font-size: 32px;
+  }
+  .button {
+    border: none;
+    background-color: transparent;
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  .limit-label {
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .time-limit {
+    background-color: #00d9f5;
+    padding: 8px 20px;
+    border-radius: 12px;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
